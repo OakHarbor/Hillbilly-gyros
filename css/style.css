@@ -1,0 +1,219 @@
+/*-- -------------------------- -->
+<---           LANDING          -->
+<--- -------------------------- -*/
+
+#hero {
+    background: url("/images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 85px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
+.hero-text h1 {
+    color: #f5f3f3;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 15px;
+    font-family: 'Slackey', cursive;
+}
+
+.hero-text h2 {
+    color: #f5f3f3;
+    font-weight: normal;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.l-menu-button,
+.order-button {
+    width: 200px;
+}
+
+.order-button {
+    border-color: #fff;
+    color: #fff;
+}
+
+/*-- -------------------------- -->
+<---           PROMISE          -->
+<--- -------------------------- -*/
+
+#our-promise {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#our-promise img {
+    width: 100%;
+}
+
+.greek {
+    position: absolute;
+    top: 100px;
+    right: -150px;
+    z-index: -1;
+}
+
+.left {
+    order: 2;
+}
+
+.left h2 {
+    text-align: left;
+    margin-top: 28px;
+    font-family: 'Slackey', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.promise-line {
+    width: 250px;
+    height: 3px;
+    background: var(--primary);
+    margin-bottom: 20px;
+}
+
+.left p {
+    margin-bottom: 40px;
+}
+
+/*-- -------------------------- -->
+<---         MENU STRIP         -->
+<--- -------------------------- -*/
+
+#menu-strip {
+    background: url("/images/gyro\ 4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.menu-strip-dark {
+    position: absolute;
+    background: var(--primary);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: .9;
+}
+
+#menu-strip h2 {
+    text-transform: uppercase;
+    font-family: 'Slackey', cursive;
+}
+
+#menu-strip h2,
+#menu-strip button {
+    position: relative;
+    z-index: 20;
+    color: #f5f3f3;
+}
+
+.menu-strip-button {
+    border-color: #fff;
+    color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+/*-- -------------------------- -->
+<---            GYROS           -->
+<--- -------------------------- -*/
+
+#gyros-showcase h2 {
+    font-family: 'Slackey', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.gyro-item {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gyro-item img {
+    width: 100%;
+    order: -1;
+    border: 10px solid #f5f5f5;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.24);
+       -moz-box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.24);
+            box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.24);
+}
+
+.gyro-item h3 {
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Rock Salt', cursive;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.gyros-button {
+    margin: auto !important;
+}
+
+/*-- -------------------------- -->
+<---            GYROS           -->
+<--- -------------------------- -*/
+
+#our-story {
+    position: relative;
+}
+
+#our-story h2 {
+    font-family: 'Slackey', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#our-story img {
+    margin-top: 40px;
+}
+
+.story-button {
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+.vegetables {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*-- -------------------------- -->
+<---           CONTACT          -->
+<--- -------------------------- -*/
+

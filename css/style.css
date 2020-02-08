@@ -6,7 +6,7 @@
     background: url("/images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: calc(100vh - 85px);
+    min-height: calc(100vh);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -26,6 +26,7 @@
     position: relative;
     z-index: 2;
     margin: auto;
+    margin-top: 35%;
 }
 
 .hero-text h1 {

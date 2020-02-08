@@ -63,12 +63,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-wrapper {
-	position: relative;
+	position: absolute;
 	top: 0;
 	right: 0;
 	background: transparent;
-    border-bottom: 5px solid var(--primary);
-    height: 90px;
+	height: 90px;
+	width: 100%;
 }
 
 /* hidden desktop elements */
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 24px;
     display: inline-block;
     position: relative;
-    z-index: 2000;
+    z-index: 4000;
 }
 .hamburger-inner {
     display: block;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 30px;
     height: 3px;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 4px;
     position: absolute;
     -webkit-transition-property: -webkit-transform;
@@ -271,6 +271,10 @@ h1, h2, h3, h4, h5, h6 {
 	width: 30px;
 }
 
+#menu-button {
+	z-index: 4000;
+}
+
 /*-- -------------------------- -->
 <---         NAVIGATION         -->
 <--- -------------------------- -*/
@@ -293,6 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	height: 100%;
+	width: 100%;
 }
 
 .hamburger {
@@ -309,6 +314,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-wrapper img {
 	height: 55px;
+	position: relative;
+	z-index: 100;
 }
 
 .navbar-menu {

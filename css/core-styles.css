@@ -20,6 +20,7 @@ button {
 	font-family: 'Raleway', sans-serif !important;
 	font-size: 1em;
 	min-width: 200px;
+	font-weight: bold;
 }
 
 button:hover {
@@ -641,6 +642,10 @@ footer {
 
 .footer-item {
 	margin-bottom: 50px;
+}
+
+.footer-item img {
+	margin-bottom: 30px;
 }
 
 .footer-item h2 {

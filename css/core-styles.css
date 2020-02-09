@@ -448,7 +448,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Tablets */
-@media screen and (min-width: 500px) and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 1050px) {
+
+	.section {
+		padding-top: 100px !important;
+		padding-bottom: 100px !important;
+	}
 
 	/*-- -------------------------- -->
     <---          CONTACT           -->
@@ -462,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1051px) {
 
 	/* Hidden Elements */
 	.mobile-wrapper {

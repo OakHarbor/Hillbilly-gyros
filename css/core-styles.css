@@ -705,3 +705,20 @@ footer {
 	opacity: .7;
 	cursor: pointer;
 }
+
+@media screen and (min-width: 500px) and (max-width: 1050px) {
+
+	.footer-item:first-child p {
+		max-width: 400px;
+	}
+
+	footer {
+		padding-top: 100px;
+	}
+
+}
+
+@media screen and (min-width: 1051px) {
+	
+
+}

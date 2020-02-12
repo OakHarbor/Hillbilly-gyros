@@ -403,6 +403,19 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+.top-svg {
+	position: absolute;
+	bottom: -2px;
+	z-index: 1000;
+	transform: rotate(180deg);
+}
+
+.bottom-svg {
+	position: absolute;
+	top: -2px;
+	z-index: 1000;
+}
+
 .contact-dark {
     position: absolute;
     height: 100%;
@@ -422,6 +435,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 	font-size: 30px;
 	font-family: 'Slackey', cursive;
+	margin-top: 50px;
 }
 
 .contact-container p {
@@ -434,7 +448,8 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     color: var(--primary);
     margin: 20px auto 0 auto;
-    border: none
+	border: none;
+	margin-bottom: 50px;
 } 
 
 .contacts-button:hover {
@@ -458,11 +473,21 @@ h1, h2, h3, h4, h5, h6 {
 
 	/*-- -------------------------- -->
     <---          CONTACT           -->
-    <--- -------------------------- -*/
+	<--- -------------------------- -*/
+	
+	#contact {
+		position: relative;
+	}
 
     .contact-container {
         width: 500px;
-    }
+	}
+	
+	#contact svg {
+		position: absolute;
+		top: 0;
+		z-index: 1000;
+	}
 
 
 }
@@ -617,7 +642,9 @@ h1, h2, h3, h4, h5, h6 {
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
+		position: relative;
 	}
+
 
 	.contact-container h2 {
 		margin-bottom: 5px;

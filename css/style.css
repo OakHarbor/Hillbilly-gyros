@@ -250,11 +250,12 @@
 }
 
 /*-- -------------------------- -->
-<---            GYROS           -->
+<---          OUR STORY         -->
 <--- -------------------------- -*/
 
 #our-story {
     position: relative;
+    background: #fafafa;
 }
 
 #our-story h2 {
@@ -269,8 +270,8 @@
 }
 
 .story-button {
-    margin-top: 20px;
-    margin-bottom: 130px;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 .vegetables {
@@ -280,13 +281,26 @@
     width: 100%;
 }
 
-/*-- -------------------------- -->
-<---         OUR STORY          -->
-<--- -------------------------- -*/
-
-#our-story {
-    background: #fafafa;
+.faded {
+    position: absolute;
+    width: 300px;
+    top: -200px;
+    overflow: hidden;
+    z-index: -1;
+    opacity: .4;
 }
+
+.faded2 {
+    position: absolute;
+    width: 300px;
+    top: -200px;
+    left: -120px;
+    overflow: hidden;
+    z-index: -1;
+    opacity: .4;
+    transform: scaleX(-1);
+}
+
 
 /* Tablet */
 @media screen and (min-width: 600px) and (max-width: 1050px) {

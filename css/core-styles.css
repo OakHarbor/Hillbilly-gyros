@@ -482,13 +482,6 @@ h1, h2, h3, h4, h5, h6 {
     .contact-container {
         width: 500px;
 	}
-	
-	#contact svg {
-		position: absolute;
-		top: 0;
-		z-index: 1000;
-	}
-
 
 }
 
@@ -638,7 +631,6 @@ h1, h2, h3, h4, h5, h6 {
 
 	#contact {
 		background-size: cover;
-		background: url("/images/desktoplanding.jpg");
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -752,6 +744,16 @@ footer {
 
 @media screen and (min-width: 1051px) {
 	
-	
+	.footer-group {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+
+	.footer-item {
+		max-width: 229px;
+	}
 
 }

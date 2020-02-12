@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 
 /*-- -------------------------- -->
 <---         CORE STYLES        -->
@@ -407,7 +409,9 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	bottom: -2px;
 	z-index: 1000;
-	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	        transform: rotate(180deg);
 }
 
 .bottom-svg {
@@ -745,9 +749,16 @@ footer {
 @media screen and (min-width: 1051px) {
 	
 	.footer-group {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 		padding-top: 50px;
 		padding-bottom: 30px;
 	}

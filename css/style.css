@@ -1,5 +1,3 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 /*-- -------------------------- -->
 <---           LANDING          -->
 <--- -------------------------- -*/
@@ -298,7 +296,9 @@
     overflow: hidden;
     z-index: -1;
     opacity: .4;
-    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+            transform: scaleX(-1);
 }
 
 
@@ -490,9 +490,16 @@
     <--- -------------------------- -*/
 
     #our-promise {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .left {
@@ -502,7 +509,9 @@
     .gyro {
         width: auto;
         height: 450px;
-        order: 2;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
     }
 
     .greek {
@@ -529,11 +538,21 @@
     }
 
     .gyros {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     .gyro-item {
@@ -568,7 +587,9 @@
     #our-story p {
         position: relative;
         z-index: 10;
-        columns: 2;
+        -webkit-columns: 2;
+           -moz-columns: 2;
+                columns: 2;
     }
 
     #our-story span {

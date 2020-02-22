@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 /*-- -------------------------- -->
 <---           LANDING          -->
 <--- -------------------------- -*/
@@ -267,6 +269,11 @@
     margin-top: 40px;
 }
 
+#our-story span {
+    font-size: 3em;
+    font-family: 'Slackey', cursive !important;
+}
+
 .story-button {
     margin-top: 40px;
     margin-bottom: 0px;
@@ -304,6 +311,7 @@
 
 /* Tablet */
 @media screen and (min-width: 600px) and (max-width: 1050px) {
+
     
     .mobile-wrapper img {
         width: 400px;

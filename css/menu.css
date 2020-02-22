@@ -1,0 +1,369 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/*-- -------------------------- -->
+<---            APPS            -->
+<--- -------------------------- -*/
+
+.bumper {
+    display: none;
+}
+
+.menu-container {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#apps {
+    background: url("/images/knife-and-lettuce.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.menu-group {
+    max-width: 1100px;
+    padding: 0 36px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.menu-section h2 {
+    font-family: 'Slackey', cursive;
+    margin-bottom: 50px;
+}
+
+.green {
+    margin-bottom: 50px;
+}
+
+.menu-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 100px;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.menu-item h3 {
+    font-family: 'Rock Salt', cursive;
+    color: var(--primary);
+    font-size: 1.3em;
+    
+}
+
+.menu-line {
+    height: 1px;
+    width: 90%;
+    background: var(--primary);
+    margin: 0px auto 15px auto;
+    
+}
+
+.menu-item span {
+    margin: auto;
+    display: block;
+    text-align: center;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+    color: var(--primary);
+    font-size: 1.2em;
+}
+
+.menu-item p {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/*-- -------------------------- -->
+<---          BURGERS           -->
+<--- -------------------------- -*/
+
+#burgers h2 {
+    margin-bottom: 10px;
+}
+
+#burgers {
+    background: url("/images/veggies\ board.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*-- -------------------------- -->
+<---           COMBOS           -->
+<--- -------------------------- -*/
+
+#combos h2 {
+    margin-bottom: 10px;
+}
+
+/*-- -------------------------- -->
+<---           SALADS           -->
+<--- -------------------------- -*/
+
+#salads h2 {
+    margin-bottom: 10px;
+}
+
+.large {
+    -webkit-box-ordinal-group: 11;
+        -ms-flex-order: 10;
+            order: 10;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.large span {
+    display: inline-block;
+}
+
+/*-- -------------------------- -->
+<---           DRINKS           -->
+<--- -------------------------- -*/
+
+#drinks {
+    padding-top: 100px;
+    background: url("/images/veggies\ board.png");
+}
+
+/*-- -------------------------- -->
+<---            KIDS            -->
+<--- -------------------------- -*/
+
+#kids {
+    padding-top: 100px;
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 1050px) {
+
+    .bumper {
+        display: block;
+    }
+
+    .menu-container {
+        width: 760px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+
+    .menu-section h2 {
+        width: 100%;
+        display: block;
+    }
+
+    .menu-group {
+        padding: 0;
+        width: 300px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+
+    .menu-item {
+        width: 300px;
+        position: relative;
+    }
+
+    .menu-item img {
+        position: absolute;
+    }
+
+    .menu-item p {
+        width: 300px;
+        height: 85px;
+        text-align: left;
+    }
+    
+    .menu-group h3 {
+        width: auto;
+        font-size: 1.1em;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .menu-line {
+        margin-left: 0;
+    }
+
+    .description {
+        width: 600px;
+    }
+
+    .menu-item span {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #burgers h2,
+    #combos h2,
+    #salads h2 {
+        margin-bottom: 20px;
+    }
+
+    #salads .menu-item {
+        height: 300px;
+    }
+
+    #salads .menu-item span {
+        margin-top: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---           COMBOS           -->
+    <--- -------------------------- -*/
+
+    #combos {
+        padding-bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---           SALADS           -->
+    <--- -------------------------- -*/
+
+    #salads {
+        padding-bottom: 0;
+    }
+
+    #salads .menu-item p {
+        height: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---           DRINKS           -->
+    <--- -------------------------- -*/
+
+    #drinks {
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (min-width: 1051px) {
+
+
+    .bumper {
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+
+    .menu-item img {
+        position: absolute;
+        top: -100px;
+    }
+
+    .menu-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        max-width: 1100px;
+    }
+
+    .menu-group {
+        padding: 10px;
+        max-width: 300px;
+        position: relative;
+    }
+
+    .menu-line {
+        margin-left: 0;
+    }
+
+    .menu-item {
+        position: relative;
+    }
+
+    .menu-item h3, 
+    .menu-item span,
+    .menu-item p {
+        text-align: left;
+    }
+
+    .menu-item span {
+        margin-left: 0;
+    }
+
+    #apps, 
+    #burgers,
+    #drinks {
+        background-attachment: fixed;
+    }
+
+    #salads .menu-group {
+        width: auto;
+        margin: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #kids .menu-container {
+        max-width: 800px;
+    }
+
+}

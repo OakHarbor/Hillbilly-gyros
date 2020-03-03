@@ -297,6 +297,10 @@
 
 @media screen and (min-width: 1051px) {
 
+    #sub-landing {
+        background-attachment: fixed;
+    }
+
 
     .bumper {
         display: block;
@@ -349,10 +353,16 @@
         margin-left: 0;
     }
 
+    .description {
+        width: 700px;
+    }
+
     #apps, 
     #burgers,
     #drinks {
         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #salads .menu-group {

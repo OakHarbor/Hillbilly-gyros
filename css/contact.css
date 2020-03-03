@@ -254,6 +254,10 @@ form p{
     <---           LANDING          -->
     <--- -------------------------- -*/
 
+    #sub-landing {
+        background-attachment: fixed;
+    }
+
     #sub-landing h1, #sub-landing h2 {
         margin: 0;
         width: 600px;

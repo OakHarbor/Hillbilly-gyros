@@ -1,0 +1,469 @@
+
+
+/*-- -------------------------- -->
+<---         ESTABLISHED        -->
+<--- -------------------------- -*/
+
+#established {
+    padding-top: 50px;
+}
+
+.established {
+    position: relative;
+}
+
+.front-door {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.faded-img {
+    position: absolute;
+    width: 500px;
+    opacity: .5;
+    top: -90px;
+    right: -250px;
+    z-index: -1;
+}
+
+#established span {
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#established h2 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+#established p {
+    margin-bottom: 25px;
+}
+
+.established-button {
+    margin-bottom: 100px;
+}
+
+.established svg {
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+    opacity: .3;
+}
+
+/*-- -------------------------- -->
+<---           JOURNEY          -->
+<--- -------------------------- -*/
+
+#journey {
+    margin-bottom: 70px !important;
+}
+
+.journey {
+    position: relative;
+}
+
+.journey h2 {
+    text-align: left;
+    font-weight: 900;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 10px;
+}
+
+.greek-design {
+    position: absolute;
+    margin: auto;
+    bottom: -950px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%)
+}
+
+/*-- -------------------------- -->
+<---           REVIEWS          -->
+<--- -------------------------- -*/
+
+#trust-us {
+    background:url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.review-group {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    border: none;
+}
+
+.review-group h3:first-child {
+    position: relative;
+    z-index: 10;
+    color: #f5f3f3;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 00px;
+    margin-top: 70px;
+}
+
+.review-h3 {
+    position: relative;
+    padding-left: 36px;
+    padding-right: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.review-h3:before {
+    content: '';
+    position: absolute;
+    background: transparent;
+    height: 240px;
+    width: 180px;
+    border: 10px solid rgba(255, 255, 255, .3);
+    top: -50px;
+}
+
+.review span {
+    font-weight: bold;
+}
+
+.review-p {
+    position: relative;
+    z-index: 10;
+    color: #f5f3f3;
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 120px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.review {
+    position: relative;
+    z-index: 10;
+    margin: 70px auto;
+}
+
+.review:last-child {
+    margin-bottom: 0px;
+}
+
+.review p,
+.review h3 {
+    color: #f5f3f3;
+}
+
+.review h3 {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.review-content {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.stars {
+    margin: 20px 0 10px 0;
+}
+
+.stars svg {
+    width: 10px;
+    height: auto;
+}
+
+.review p:nth-child(2) {
+    font-size: 0.9375em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.review p:nth-child(3) {
+    font-size: 1.0625em !important;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-- -------------------------- -->
+<---         ICON STRIP         -->
+<--- -------------------------- -*/
+
+#qualities {
+    background: #1c7f3e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+}
+
+.qualities-dark {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+}
+
+.item-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.svg {
+    height: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 170px;
+}
+
+.item svg {
+    position: absolute;
+}
+
+.image {
+    width: 80px;
+    height: auto;
+}
+
+.item h2 {
+    color: #fff;
+}
+
+/*-- -------------------------- -->
+<---        TESTIMONIALS        -->
+<--- -------------------------- -*/
+
+#trust-us {
+    position: relative;
+}
+
+.content-back {
+    background: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: .8;
+}
+
+#trust-us p span {
+    color: #77b28b;
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 1050px) {
+
+    /*-- -------------------------- -->
+    <---           LANDING          -->
+    <--- -------------------------- -*/
+
+    #sub-landing h1, #sub-landing h2 {
+        margin: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---            ICONS           -->
+    <--- -------------------------- -*/
+
+    .item-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .item {
+        width: 300px;
+    }
+
+    /*-- -------------------------- -->
+    <---        TESTIMONIALS        -->
+    <--- -------------------------- -*/
+
+    .review-h3:before {
+        height: 210px;
+    }
+
+    .review-p {
+        margin-bottom: 160px;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1051px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    #sub-landing h1, #sub-landing h2 {
+        margin: 0;
+        width: 600px;
+    }
+
+    /*-- -------------------------- -->
+    <---         ESTABLISHED        -->
+    <--- -------------------------- -*/
+
+    #established {
+        padding-top: 100px;
+    }
+
+    .established {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .front-door {
+        height: 350px;
+        width: auto;
+    }
+
+    .faded-img {
+        right: unset;
+        width: 700px;
+        left: -180px;
+        top: -300px;
+    }
+
+    .established-content {
+        width: 500px;
+    }
+
+    .established svg {
+        left: -900px;
+    }
+
+    /*-- -------------------------- -->
+    <---           JOURNEY          -->
+    <--- -------------------------- -*/
+
+    .journey h2, .journey p {
+        width: 800px;
+    }
+
+    .greek-design {
+        transform: translate(unset);
+        right: 0px;
+        bottom: -300px;
+        width: 500px;
+    }
+
+    /*-- -------------------------- -->
+    <---            ICONS           -->
+    <--- -------------------------- -*/
+
+    .item-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /*-- -------------------------- -->
+    <---           REVIEWS          -->
+    <--- -------------------------- -*/
+
+    #trust-us {
+        background-attachment: fixed;
+    }
+
+    .review-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: auto;
+        width: 900px;
+        padding-bottom: 100px;
+    }
+
+    .review-h3 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .review-h3:before {
+        height: 180px;
+    }
+
+    .review-p {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 100px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .review {
+        width: 450px;
+    }
+
+    .review p {
+        text-align: center;
+    }
+
+    .stars {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-pack: center;
+           -ms-flex-pack: center;
+               justify-content: center;
+       margin-bottom: 20px;
+    }
+
+}

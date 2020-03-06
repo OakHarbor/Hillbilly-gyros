@@ -265,6 +265,23 @@
         margin-top: 0;
     }
 
+    .veggie {
+        height: 300px;
+    }
+
+    .falafal {
+        height: 306px;
+    }
+
+    .pita-large {
+        height: auto !important;
+        margin-bottom: !important;
+    }
+
+    .pita {
+        height: 251px;
+    }
+
     /*-- -------------------------- -->
     <---           COMBOS           -->
     <--- -------------------------- -*/

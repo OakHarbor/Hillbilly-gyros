@@ -364,6 +364,10 @@
         position: relative;
     }
 
+    .menu-item h3 {
+        width: 100%;
+    }
+
     .menu-item h3, 
     .menu-item span,
     .menu-item p {

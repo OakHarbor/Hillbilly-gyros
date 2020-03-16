@@ -6,6 +6,14 @@ var $hamburger = $(".hamburger");
     // Do something else, like open/close menu
   });
 
+
+  var $bannerButton = $("#banner-button");
+  var $banner = $(".banner");
+  $bannerButton.on("click", function(e) {
+    $banner.addClass("none");
+    $bannerButton.addClass("none");
+  });
+
   /* Code for the toggling of the navbar */
 
 let toggleNavStatus = false;

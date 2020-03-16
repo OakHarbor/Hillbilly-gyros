@@ -1,4 +1,143 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.banner {
+    -webkit-animation: banner .4s ease-in-out .3s 1 normal forwards;
+            animation: banner .4s ease-in-out .3s 1 normal forwards;
+    overflow: hidden;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    bottom: 0;
+    z-index: 3000;
+    background: var(--primary);
+    padding: 40px;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 93px 9px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 93px 9px rgba(0,0,0,0.75);
+}
+
+.banner p {
+    color: #fff;
+    text-align: center;
+}
+
+.banner button {
+    margin-bottom: 10px;
+    border: none;
+    font-size: 1.3em;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+}
+
+.banner button i {
+    margin-right:  10px;
+}
+
+.banner.none {
+    visibility: hidden;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+    top: -2000px;
+}
+
+#banner-button.none {
+    visibility: hidden;
+}
+
+@-webkit-keyframes banner {
+    from {
+        opacity: 0;
+        bottom: 1000px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@keyframes banner {
+    from {
+        opacity: 0;
+        bottom: 1000px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 1050px) {
+
+    .banner {
+        width: 500px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .banner p {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .banner button {
+        margin: 40px auto;
+        display: block;
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (min-width: 1051px) {
+
+    .banner {
+        width: 500px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .banner p {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .banner button {
+        margin: 40px auto;
+        display: block;
+        margin-bottom: 0;
+    }
+
+}
 
 /*-- -------------------------- -->
 <---           LANDING          -->

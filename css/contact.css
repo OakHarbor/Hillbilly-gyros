@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 /*-- -------------------------- -->
 <---            FORM            -->
 <--- -------------------------- -*/
@@ -26,8 +28,13 @@
 /* Form */
 #valley-form {
     display: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 #contact-form input[type="text"], 
@@ -174,7 +181,9 @@ form p{
 .contact-right {
     padding-top: 50px;
     padding-bottom: 50px;
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
 }
 
 .contact-right h3 {
@@ -298,7 +307,9 @@ form p{
     .contact-right {
         width: 300px;
         padding-top: 0;
-        order: 1;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
     }
 
 }

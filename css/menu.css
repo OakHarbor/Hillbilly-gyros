@@ -28,6 +28,11 @@
     }
 }
 
+.call-now - {
+    position: relative;
+    z-index: -1px;
+}
+
 .bumper {
     display: none;
 }

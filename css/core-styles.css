@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #sub-landing {
 	background: url("/images/landing.jpg");
-	height: 600px;
+	height: 350px;
 	background-size: cover;
 	padding-top: 90px;
 	display: -webkit-box;
@@ -513,7 +513,9 @@ h1, h2, h3, h4, h5, h6 {
 	cursor: pointer;
 }
 
-
+.desktop-call {
+	display: none;
+}
 
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1050px) {
@@ -704,6 +706,14 @@ h1, h2, h3, h4, h5, h6 {
 	.contact-container p {
 		width: 500px;
 		margin: auto;
+	}
+
+	.mobile-call {
+		display: none;
+	}
+
+	.desktop-call {
+		display: block;
 	}
 }
 

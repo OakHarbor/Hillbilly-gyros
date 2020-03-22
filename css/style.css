@@ -1,4 +1,12 @@
 
+@media screen and (max-width: 330px) {
+
+    .banner {
+        top: 300px !important;
+    }
+
+}
+
 .banner {
     -webkit-animation: banner .4s ease-in-out .3s 1 normal forwards;
             animation: banner .4s ease-in-out .3s 1 normal forwards;
@@ -72,6 +80,10 @@
         opacity: 1;
         bottom: 0;
     }
+}
+
+.desktop-call {
+    display: none !important;
 }
 
 /* Tablet */
@@ -638,6 +650,14 @@
     .l-menu-button {
         margin-bottom: 30px !important;
         margin-top: 50px !important;
+    }
+
+    .desktop-call {
+        display: block !important;
+    }
+
+    .mobile-call {
+        display: none !important;
     }
     
     /*-- -------------------------- -->

@@ -4,6 +4,30 @@
 <---            APPS            -->
 <--- -------------------------- -*/
 
+.call-now {
+    min-width: 70px;
+    height: 70px;
+    border-radius: 50% !important;
+    border: 3px solid var(--primary);
+    background: rgba(28,127,62, .4);
+    color: var(--primary);
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    animation: callButton .6s cubic-bezier(0.46, 0.03, 0.65, 1.26) .1s 1 normal forwards;
+}
+
+@keyframes callButton {
+    from {
+        bottom: -100px
+    }
+
+    to {
+        bottom: 30px
+    }
+}
+
 .bumper {
     display: none;
 }
@@ -316,6 +340,10 @@
 }
 
 @media screen and (min-width: 1051px) {
+
+    .call-now {
+        display: none;
+    }
 
     #sub-landing {
         background-attachment: fixed;

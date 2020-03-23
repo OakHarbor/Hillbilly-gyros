@@ -408,6 +408,10 @@
     margin: auto !important;
 }
 
+.mobile-remove {
+    display: none;
+}
+
 /*-- -------------------------- -->
 <---          OUR STORY         -->
 <--- -------------------------- -*/
@@ -617,6 +621,10 @@
     /*-- -------------------------- -->
     <---           LANDING          -->
     <--- -------------------------- -*/
+
+    .mobile-remove {
+        display: block;
+    }
 
     #hero {
         background-attachment: fixed;

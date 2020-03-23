@@ -164,7 +164,7 @@
 <--- -------------------------- -*/
 
 #hero {
-    background: url("/images/landing.jpg");
+    background: url("/images/landing-mini.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -294,7 +294,7 @@
 <--- -------------------------- -*/
 
 #menu-strip {
-    background: url("/images/random-food.jpg");
+    background: url("/images/random-food-mini.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -530,6 +530,14 @@
     }
 
     /*-- -------------------------- -->
+    <---         MENU STRIP         -->
+    <--- -------------------------- -*/
+
+    #menu-strip {
+        background: url("/images/random-food.jpg");
+    }
+
+    /*-- -------------------------- -->
     <---       GYROS SHOWCASE       -->
     <--- -------------------------- -*/
 
@@ -639,6 +647,7 @@
 
     #hero {
         background-attachment: fixed;
+        background: url("/images/landing.jpg");
     }
 
     .hero-text {
@@ -721,6 +730,7 @@
 
     #menu-strip {
         background-attachment: fixed;
+        background: url("/images/random-food.jpg");
     }
 
     /*-- -------------------------- -->

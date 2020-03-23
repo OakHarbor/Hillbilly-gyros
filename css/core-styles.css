@@ -788,13 +788,13 @@ footer {
 	cursor: pointer;
 }
 
-.footer-item i {
-	font-size: 30px;
-	color: var(--primary);
+.footer-item svg {
+	width: 30px;
+	height: auto;
 	margin-top: 15px;
 }
 
-.footer-item i:hover {
+.footer-item svg:hover {
 	opacity: .7;
 	cursor: pointer;
 }

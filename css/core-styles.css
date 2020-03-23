@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #contact {
-    background: url("/images/landing.jpg");
+    background: url("/images/landing-mini.jpg");
     background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -531,6 +531,7 @@ h1, h2, h3, h4, h5, h6 {
 	
 	#contact {
 		position: relative;
+		background: url("/images/landing.jpg");
 	}
 
     .contact-container {
@@ -691,6 +692,7 @@ h1, h2, h3, h4, h5, h6 {
 	<--- -------------------------- -*/
 
 	#contact {
+		background: url("/images/landing.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;

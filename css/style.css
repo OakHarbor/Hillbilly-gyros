@@ -20,7 +20,11 @@
             transform: translate(-50%, -50%);
     bottom: 0;
     z-index: 3000;
-    background: var(--primary);
+    background: rgb(51,140,81);
+    background: -moz-radial-gradient(circle, rgba(51,140,81,1) 0%, rgba(38,127,69,1) 27%, rgba(20,89,43,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(51,140,81,1) 0%, rgba(38,127,69,1) 27%, rgba(20,89,43,1) 100%);
+    background: radial-gradient(circle, rgba(51,140,81,1) 0%, rgba(38,127,69,1) 27%, rgba(20,89,43,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#338c51",endColorstr="#14592b",GradientType=1);
     padding: 40px;
     width: 100%;
     border-radius: 8px;
@@ -31,6 +35,8 @@
 .banner p {
     color: #fff;
     text-align: center;
+    position: relative;
+    z-index: 100;
 }
 
 .banner button {
@@ -56,6 +62,117 @@
 
 #banner-button.none {
     visibility: hidden;
+}
+
+.sv1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    animation-name: sv1Animation;
+    animation-duration: 15s;
+    animation-timing-function: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    z-index: -1;
+}
+
+.move {
+    animation-name: sv1Animation2;
+    animation-duration: 10s;
+    animation-timing-function: none;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+.sv2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    animation-name: sv2Animation;
+    animation-duration: 15s;
+    animation-timing-function: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.move2 {
+    animation-name: sv2Animation2;
+    animation-duration: 15s;
+    -moz-animation-timing-function: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.sv3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    animation-name: sv2Animation;
+    animation-duration: 15s;
+    animation-timing-function: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: .4s;
+}
+
+.move3 {
+    animation-name: sv3Animation2;
+    animation-duration: 15s;
+    -moz-animation-timing-function: none;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes sv1Animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes sv2Animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes sv1Animation2 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes sv2Animation2 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 @-webkit-keyframes banner {
@@ -117,6 +234,18 @@
         margin-bottom: 0;
     }
 
+    .sv1 {
+        left: -250px;
+        height: 130px;
+        width: 130px;
+        bottom: -10px;
+    }
+
+    .sv2 {
+        position: absolute;
+        right: -140px;
+    }
+
 }
 
 @media screen and (min-width: 1051px) {
@@ -155,6 +284,18 @@
         -o-transition: .4s ease;
         transition: .4s ease;
         top: -2000px;
+    }
+
+    .sv1 {
+        left: -250px;
+        height: 130px;
+        width: 130px;
+        bottom: -30px;
+    }
+
+    .sv2 {
+        position: absolute;
+        right: -140px
     }
 
 }

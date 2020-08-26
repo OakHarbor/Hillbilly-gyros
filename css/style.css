@@ -883,6 +883,10 @@
         display: block;
     }
 
+    .banner {
+        height: 450px;
+    }
+
     #hero {
         background-attachment: fixed !important;
         background: url("/images/landing.jpg");

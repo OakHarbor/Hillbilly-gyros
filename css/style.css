@@ -1,5 +1,15 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
+.owner-phone {
+    background: #fff;
+    padding: 0 10px;
+    color: var(--primary);
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 15px;
+}
 
 @media screen and (max-width: 330px) {
 
